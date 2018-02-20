@@ -46,7 +46,7 @@ end
 #return false if there's an open position_3  
 
 def full?(board)
-  board.any?{|position| position 
+  board.any?{|position| position == " " or position == ""}
      return true
     end
   end
