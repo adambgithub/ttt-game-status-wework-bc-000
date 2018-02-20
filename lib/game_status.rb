@@ -35,7 +35,7 @@ def won?(board)
 end
 
 def full?(board)
-  position_taken?.all?
+  board.all?
 end
   
 
