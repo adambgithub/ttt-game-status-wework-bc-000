@@ -45,6 +45,7 @@ def full?(board)
       status[6] = "X" or "O" &&
       status[7] = "X" or "O" &&
       status[8] = "X" or "O"
+    end
   end
     false
 end
