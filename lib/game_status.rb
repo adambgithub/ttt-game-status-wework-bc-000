@@ -35,9 +35,11 @@ def won?(board)
 end
 
 def full?(board)
-  board.all?
+  board.all? do |spot| 
+    spot.postion_taken?
 end
   
+
 
 
 
