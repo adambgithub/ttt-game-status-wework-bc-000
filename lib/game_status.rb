@@ -43,6 +43,24 @@ def full?(board)
     false
 end
   
+#return false if there's an open position_3  
+
+def full?(board)
+  board.any? do |status|
+    if
+     return true
+    end
+  end
+    false
+end
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 
