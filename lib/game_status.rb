@@ -37,8 +37,6 @@ end
 def full?(board)
   position_taken?.all?
 end
-  board.reject{|position| position.position_taken?(board, index)}
-  
   
 
 
