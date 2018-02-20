@@ -37,6 +37,7 @@ end
 def full?(board)
   board.all? do |spot| 
     spot.postion_taken?
+  end
 end
   
 
