@@ -38,6 +38,7 @@ def full?(board)
   board.each do |status|
     board[0] = status
   end
+  false
 end
   
 
