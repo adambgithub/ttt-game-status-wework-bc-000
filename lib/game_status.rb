@@ -36,16 +36,15 @@ end
 
 def full?(board)
   board.each do |status|
-    if status[0] = "X" or "O" &&
-       status[1] = "X" or "O" &&
-       status[2] = "X" or "O" &&
-       status[3] = "X" or "O" &&
-       status[4] = "X" or "O" &&
-       status[5] = "X" or "O" &&
-       status[6] = "X" or "O" &&
-       status[7] = "X" or "O" &&
-       status[8] = "X" or "O"
-      puts "hello"
+    if status[0] == "X" or "O" &&
+       status[1] == "X" or "O" &&
+       status[2] == "X" or "O" &&
+       status[3] == "X" or "O" &&
+       status[4] == "X" or "O" &&
+       status[5] == "X" or "O" &&
+       status[6] == "X" or "O" &&
+       status[7] == "X" or "O" &&
+       status[8] == "X" or "O"
   end
     false
 end
