@@ -40,6 +40,8 @@ end
 def full?(board)
   board.any?{|position| position == " " or position == ""}
 end
+false
+end
   
   
   
