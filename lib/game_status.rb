@@ -35,7 +35,7 @@ def won?(board)
 end
 
 def full?(board)
-  board.reject{|position| position.
+  board.reject{|position| position.position_taken?(board, index)
   
   
 
