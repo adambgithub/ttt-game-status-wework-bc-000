@@ -48,8 +48,7 @@ elsif won?(board) == false
  end
 end
 
-#true if board = not won && is full
-#false if board won 
+
   
   
   
