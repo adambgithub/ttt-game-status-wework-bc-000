@@ -35,8 +35,8 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? do |spot| 
-    spot.postion_taken?
+  board.each do |status|
+    board[0] = status
   end
 end
   
