@@ -36,9 +36,9 @@ end
 
 def full?(board)
   board.each do |status|
-    status[0] = 
+    status[0] = "X" or 'O'
   end
-  false
+    false
 end
   
 
