@@ -39,7 +39,7 @@ def full?(board)
 end
   
 def draw?(board)
-  board.any?{|position| position == " "}
+ if won?(board) == true && if full?(board) == true
 end
 
 #true if board = not won && is full
