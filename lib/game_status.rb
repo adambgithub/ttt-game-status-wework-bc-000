@@ -39,3 +39,11 @@ def full?(board)
   
   
 
+
+
+
+
+
+
+
+
