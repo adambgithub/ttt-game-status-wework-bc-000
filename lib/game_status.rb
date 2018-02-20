@@ -36,7 +36,7 @@ end
 
 def full?(board)
   board.each do |status|
-    board[0] = status
+    status[0] = 
   end
   false
 end
